@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Email Design</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-image: url('daily background.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: sans-serif;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            /*background-color: white;*/
+            border-radius: 10px;
+            /*box-shadow: 0 0 10px rgba(0,0,0,0.2)*/;
+        }
+        .gift-image {
+            width: 100px;
+            margin-bottom: 20px;
+        }
+        .text-content {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .text-content h1 {
+            color: green;
+            font-size: 2em;
+        }
+        .text-content h2 {
+            color: purple;
+            font-size: 1.5em;
+        }
+        .button {
+            background-image: url('button.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            padding: 15px 30px;
+            border: none;
+            cursor: pointer;
+            font-size: 1.2em;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            color: white;
+        }
+        .button:hover {
+            opacity: 0.8;
+        }
+        .button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="gift.png" alt="Gift" class="gift-image">
+        <div class="text-content">
+            <h1>CONGRATULATIONS!</h1>
+            <p>You've received</p>
+            <h2>2 FREE SPINS TODAY!</h2>
+        </div>
+        <a href="#" class="button">Click Here to Play</a>
+    </div>
+</body>
+</html>
